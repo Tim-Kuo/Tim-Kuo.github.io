@@ -1,0 +1,11 @@
+.selfimg {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../img/self.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.line {
+    border-top: 2px solid color black;
+}

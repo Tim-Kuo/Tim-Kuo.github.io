@@ -1,0 +1,79 @@
+#cellphone {
+    height: 80vh;
+    width: 40vh;
+    margin: calc((100vh - 80vh) / 2) auto;
+    background-image: url("../img/oppof1_1.jpg");
+    background-size: cover;
+}
+
+.desk {
+    height: 64vh;
+    width: 36vh;
+    background-image: url("../img/desk.jpg");
+    background-size: cover;
+}
+
+.screen {
+    height: 64vh;
+    width: 36vh;
+    padding-top: 8vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.bottom {
+    height: 8vh;
+    width: 40vh;
+}
+
+.home {
+    height: 8vh;
+    width: 14vh;
+    padding-left: 13vh;
+    padding-right: 13vh;
+    display: inline-block;
+}
+
+.box {
+    height: 12vh;
+    width: 36vh;
+}
+
+.app {
+    height: 8vh;
+    width: 8vh;
+    display: inline-block;
+    background-size: cover;
+}
+
+.app_book {
+    background-image: url("../img/book_1.png");
+}
+
+.app_ptt {
+    background-image: url("../img/ptt.png");
+}
+
+.app_etoday {
+    background-image: url("../img/etoday.png");
+}
+
+.app_gmap {
+    background-image: url("../img/gmap.png");
+}
+
+.app_yt {
+    background-image: url("../img/yt.png");
+}
+
+.app_ceiba {
+    background-image: url("../img/ceiba.png");
+}
+
+.app_ntu {
+    background-image: url("../img/ntu.png");
+}
+
+.app_ntucool {
+    background-image: url("../img/ntucool.png");
+}
