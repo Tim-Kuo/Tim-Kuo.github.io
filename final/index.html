@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-TW">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>統一發票對獎</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 標題 -->
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1 class="display-4">統一發票對獎</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="month_btn">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <a id='m_btn1' class="btn btn-primary" href="#" role="button" style="width:100%;">Link</a>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row" style="height: 10vh;"></div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <a id='m_btn2' class="btn btn-primary" href="#" role="button" style="width:100%;"></a>
+                </div>
+                <div class=" col-sm-2 "></div>
+            </div>
+        </div>
+        <div id="check_area" style="display:none; ">
+            <div class="row">
+                <input type="text" class="form-control" placeholder="請輸入發票末三碼" id="num_enter" maxlength="3" onkeyup="value=value.replace(/[^\d]/g,'')">
+            </div>
+            <div class="row">
+                <p id="count"></p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row" style="height: 25%;">
+                        <div class="col">
+                            <a id='btn1' class="btn btn-primary" href="#" role="button" style="width:100%;">1</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn2' class="btn btn-primary" href="#" role="button" style="width:100%;">2</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn3' class="btn btn-primary" href="#" role="button" style="width:100%;">3</a>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25%;">
+                        <div class="col">
+                            <a id='btn4' class="btn btn-primary" href="#" role="button" style="width:100%;">4</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn5' class="btn btn-primary" href="#" role="button" style="width:100%;">5</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn6' class="btn btn-primary" href="#" role="button" style="width:100%;">6</a>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25%;">
+                        <div class="col">
+                            <a id='btn7' class="btn btn-primary" href="#" role="button" style="width:100%;">7</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn8' class="btn btn-primary" href="#" role="button" style="width:100%;">8</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn9' class="btn btn-primary" href="#" role="button" style="width:100%;">9</a>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25%;">
+                        <div class="col">
+                            <a id='btn_clear' class="btn btn-primary" href="#" role="button" style="width:100%;">×</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn0' class="btn btn-primary" href="#" role="button" style="width:100%;">0</a>
+                        </div>
+                        <div class="col">
+                            <a id='btn_back' class="btn btn-primary" href="#" role="button" style="width:100%;">←</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="list-group">
+                        <li class="list-group-item" id="tmprise"></li>
+                        <li class="list-group-item" id="mprise"></li>
+                        <li class="list-group-item" id="fprise"></li>
+                        <li class="list-group-item" id="exprise"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <hr class="line">
+            <p align="center">2020 &copy; Tim-Kuo</p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous ">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous ">
+    </script>
+    <!-- 引用自己寫的 js -->
+    <script src="./js.js "></script>
+</body>
+
+</html>
